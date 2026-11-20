@@ -19,3 +19,22 @@ __pycache__/
 netlists/**/*
 !netlists/**/.gitkeep
 *.vvp
+
+# Simulation artifacts
+build/
+*.vvp
+*.vcd
+*.log
+obj_dir/
+
+# EDA artifacts
+*.db
+*.lib
+*.ddc
+*.sdf
+*.spef
+*.gds
+*.gdsii
+*.ndm
+*.saif
+*.svf
